@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rabbit</title>
+    <link rel="stylesheet" href="rabbit.css">
+    <script>
+        setTimeout(function(){
+            let target = document.getElementById('rabbit');
+            target.classList.remove('rabbit-bounce');
+        }, 2000);
+    </script>
+</head>
+<body>
+    <div id="rabbit" class="rabbit rabbit-bounce">
+        <div class="ear left">
+            <div class="earline"></div>
+        </div>
+        <div class="ear right">
+            <div class="earline"></div>
+        </div>
+        <div class="flower">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <div class="face">
+            <div class="eye left">
+                <div class="eye-white-big"></div>
+                <div class="eye-white-small"></div>
+                <div class="eyelash eyelash-left1"></div>
+                <div class="eyelash eyelash-left2"></div>
+            </div>
+            <div class="eye right">
+                <div class="eye-white-big"></div>
+                <div class="eye-white-small"></div>
+                <div class="eyelash eyelash-right1"></div>
+                <div class="eyelash eyelash-right2"></div>
+            </div>
+            <div class="wink">
+                <div></div>
+                <div></div>
+            </div>   
+            <div>
+                <div class="cheek cheek-left"></div>
+                <div class="cheek cheek-right"></div>
+            </div>
+            <div class="nose"></div>
+            <div class="mouth">
+                <div class="top-mouth"></div>
+                <div class="bottom-mouth bottom-mouth-left"></div>
+                <div class="bottom-mouth bottom-mouth-right"></div>
+                <div class="tongue">
+                    <div class="teeth"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
